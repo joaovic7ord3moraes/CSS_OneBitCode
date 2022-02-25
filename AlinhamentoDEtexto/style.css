@@ -1,0 +1,16 @@
+@charset "UTF8";
+
+body{
+    font: normal 16px Arial, Verdana, Serif;
+    text-align: left;/*configurações de texto*/
+}
+h1{
+    text-align: center;/*centraliza*/
+}
+h2{
+    text-align: left; /*Leva o subtitulo ao lado direito da tela*/
+}
+p{
+    text-align: justify;
+    text-indent: 30px; /* " Text-indent -> vai criar uma indentação do texto ou seja vai alinhar a primeira linha do paragrafo" -> Indentação é um anglicismo com origem no termo indentation, que significa “um espaço no começo de uma linha escrita ou de um paragrafo”*/
+}

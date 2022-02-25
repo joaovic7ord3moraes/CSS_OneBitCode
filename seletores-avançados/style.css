@@ -1,0 +1,14 @@
+@charset "UTF8";
+*{
+    border: 2px solid;
+}
+/*seletor para links (*li a{color: red*}) dessa forma podemos editar a cor dos links */
+/*tudo que é em html id = # em css
+e tudo que é em html class = . em css*/
+a[href='/ancora']{
+    color:aqua;
+}
+li:nth-of-type(2){
+    color:rgb(122, 8, 8)
+}
+inre

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            color:blue
+        }
+        div ul li{
+            /*dessa forma o comando em CSS, atarvessa os herdeiro H1 deixando apenas a lista vermelha*/
+            color:darkred;
+        }
+        div{
+            border: 2px solid;
+        }
+        div ul{
+            border: inherit;
+            /*esse código faz herdar a caracteristica do 'pai', nesse caso a div é pai do ul e o ul do li*/
+        }
+    </style>
+    <title>Herança</title>
+</head>
+<body>
+    <div><H1>Planetas</H1>
+   <ul>
+       <li>Terra</li>
+       <li>Venus</li>
+       <li>Júpter</li>
+   </ul></div>
+   
+
+</body>
+</html>

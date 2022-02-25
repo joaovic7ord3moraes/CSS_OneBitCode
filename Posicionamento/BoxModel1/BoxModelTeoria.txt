@@ -1,0 +1,15 @@
+Box Model:
+Teoria; tudo que é exibido em tela é basicamente uma caixa que pode ser dividida como uma boneca russa,
+colocando uma dentro da outra (aninhamento):
+Altura--> heigt,
+Largura--> widt,
+preenchimento--> padding,
+da borda para fora--> margin,
+borda fora da borda-->outline,
+
+TIPOS DE CAIXA:
+Inline Level e Box-Level.
+Box-Level: ocupa toda a linha da tela e por isso ele vai pular a ultima linha.
+exemplo em HTML--> <DIV>
+inline level:ele não quebra linha nem pula linha... e não ocupa o tamanho inteiro.
+exemplo de tag em HTML--> <SPAN>

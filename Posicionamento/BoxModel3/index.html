@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxModel</title>
+    <style>
+        h1{/*BOX - LEVEL*/
+            /*para altera o box para inline basta digitar Display: inline*/
+            background-color: darkred;
+            height: 300px;
+            width: 300px;
+            /*--simplificando códigos
+            border-top: 10px;
+            border-right:10px;
+            border-bottom: 10px;
+            border-left: 10px;
+            border-style: solid;
+            border-color: rgb(12, 4, 128); todo esse código pode ser simplificado para o código seguinte--->*/
+            border:10px 10px 10px 10px solid rgb(12, 4, 128);
+            
+            /* padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;  esse código pode ser simplificado-->*/
+            padding:10px;/*ou se caso os 10px forem iguais pode-se usar apenas 1px*/
+           
+            /*Vai centralizar a caixa no meio da pagina (margin: auto;)-->*/
+
+           
+            /* margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 40px;
+            margin-left: 10px;*/
+            margin:20px auto 40px auto;
+
+             /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: blueviolet;*/
+            outline:5px dashed salmon;
+        }
+        a{/*INLINE-LEVEL*/
+            /*para alterar as caixas de inline para box basta usar Display: block*/
+            /*Display: inline-block*/
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+        }
+    </style>
+</head>
+<body>
+   <h1>Exemplos de Caixa Box Level</h1>
+   <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline level</a> vamos ver como tudo isso funciona.</p> 
+</body>
+</html>

@@ -1,0 +1,12 @@
+@charset "UTF8";
+p{
+    
+    font-family:'delivery' ;
+    font-size: 3em;
+    font-weight: normal;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+}

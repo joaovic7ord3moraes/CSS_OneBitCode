@@ -1,0 +1,98 @@
+@charset "UTF8";
+/*cores:
+#c5ebd6
+#83e1ad
+#3ddc84
+#2fa866
+#1a5c37
+#063d1e*/
+/* FONTES
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+
+/*LISTA DE CLASSES
+TextosPadrao_Blank (textos Biblicos com links)*/
+/*pagina 1*/
+*{
+    margin:0px;
+    padding: 0px;
+}
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    --fonte-padrao:'Montserrat Alternates','Roboto', 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(194, 192, 192);
+}
+a{
+    text-decoration: none;
+}
+.centraliarpg1{
+    text-align:  center;
+    background-color: white;
+    padding: 10px;
+    border: 20px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+.fontepg1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    color:#4A6DA7;
+}
+.data{
+    font-family: 'Roboto', sans-serif;
+}
+.imgCapapg1{
+  max-width: 290px;
+  max-height: 180px ;
+  width: 100%;
+}
+/*PAGINA 3*/
+.img1PG3{
+    max-width: 800px;
+    max-height: 700px;
+}
+.img2pg3{
+    width: 200px;
+}
+.Art3{
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 850px;
+    min-width: 300;
+    margin: auto;
+}
+/*pagina 4*/
+.TextosPadrao_Blank{ 
+    font-family: 'Open Sans', sans-serif;
+    color:#4A6DA7;
+    font-size: 19px;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:22px;
+    margin: 15px 0px;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+strong{
+    padding: 2px 6px;
+}

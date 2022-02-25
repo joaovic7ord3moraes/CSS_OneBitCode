@@ -1,0 +1,11 @@
+iniciando em CSS método inline: Esse método consiste em básicamente misturar a HTML e as CSSs,
+porém essa não é a melhor forma de se trabalhar com essas ferramentas.
+
+CSS método interno:separar as css e html colocando o código das css no <head>
+
+
+CSS método externo: criar um arquivo a parte do html para separar html e css
+
+Dica: sempre separar html das css, por questão de limpeza de código e produção futuras que poderão acontecer...
+
+usar o método inline com muita moderação, usar o interno com moderação e externo a voontade. 

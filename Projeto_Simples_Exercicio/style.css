@@ -1,0 +1,27 @@
+@charset "UTF8";
+
+body{
+    background-image: URL("esseaqui.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1{
+    color:white;
+    font-size: 40px;
+}
+h3{
+    font-size: 26px ;
+    color: yellow;
+}
+h2{
+    font-size: 26px;
+    /*background-color: rgb(252, 194, 5);*/
+}
+.texto-vermelho{
+    color: darkred;
+}
+ul{
+    font-size: 20px;
+    color:white
+}
+
